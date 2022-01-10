@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+        <script src="script.js"></script>
+    </head>
+    <body>
+        <div class="uiSet" id="gameNotStarted">
+            <h1>Answer 15 questions to test your skill in Javascript!</h1>
+            <button id="playButton" onclick="playButtonPressed()">Test me</button>
+        </div>
+        <div class="uiSet" id="gameStarted">
+            <h1 id="secondsElapsed">Seconds elapsed: 0</h1>
+            <h2 id="questionIndex">1/15</h2>
+            <center><div id="questionDiv">
+                <p id="questionParagraph">How many cows are in the house?</p>
+            </div></center>
+            <div id="answerButtonsDiv">
+                <button class="answerButtons" id="answer1"></button>
+                <button class="answerButtons" id="answer2"></button>
+                <button class="answerButtons" id="answer3"></button>
+                <button class="answerButtons" id="answer4"></button>
+            </div>
+        </div>
+    </body>
+</html>
